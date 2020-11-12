@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Header.jsx';
-import Body from './Body.jsx';
+import Header from './Header';
+import Body from './Body';
 const axios = require('axios')
 
 class Review extends React.Component {

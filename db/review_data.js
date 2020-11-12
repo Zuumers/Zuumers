@@ -1,4 +1,4 @@
-var data = [
+var reviewData = [
   {
     id: 1,
     productId: 1,
@@ -54,4 +54,4 @@ var data = [
   }
 ];
 
-module.exports = data;
+module.exports = reviewData;

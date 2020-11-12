@@ -20,18 +20,6 @@ display: inline-block;
 color: #ffffff;
 background-color: #ff6d6d;
 `
-// const starA = styled.a`
-// font-family: 'JudgemeStar';
-//     display: inline !important;
-//     text-decoration: none !important;
-//     padding: 0 4px 0 0 !important;
-//     margin: 0 !important;
-//     font-weight: bold;
-//     opacity: 1;
-//     -webkit-font-smoothing: antialiased;
-//     box-sizing: border-box;
-//     color: #f6de03;
-// `
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -47,8 +35,7 @@ class Header extends React.Component {
     return (
       <div style={{ display: 'flex', justifyContent: "start" }}>
         <img src={avatarLink}
-          height="50" width="50"
-          borderRadius='50' overflow='hidden'></img>
+          height="50" width="50" overflow='hidden'></img>
         <div>
           <div style={{ display: 'flex', justifyContent: "start" }}>
             {/* <starA></starA> */}
